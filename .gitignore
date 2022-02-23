@@ -22,6 +22,10 @@
 # Visual Studio cache directory
 .vs/
 
+# Visual Studio configurations
+.vsconfig
+UpgradeLog.htm
+
 # Gradle cache directory
 .gradle/
 
