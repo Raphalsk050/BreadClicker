@@ -8,6 +8,5 @@ namespace Cursors {
         private void Update() {
             Timer.DoDelayed(ClickOnBread, speed);
         }
-       
     }
 }
