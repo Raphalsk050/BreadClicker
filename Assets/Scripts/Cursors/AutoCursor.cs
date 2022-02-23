@@ -1,12 +1,13 @@
 using UnityEngine;
 using Utils;
 
-namespace Click {
-    public class AutoClick : BaseClick {
+namespace Cursors {
+    public class AutoCursor : BaseCursor {
         [SerializeField] private int speed = 1;
 
         private void Update() {
-            Timer.DoDelayed(DoClick, speed);
+            Timer.DoDelayed(ClickOnBread, speed);
         }
+       
     }
 }
