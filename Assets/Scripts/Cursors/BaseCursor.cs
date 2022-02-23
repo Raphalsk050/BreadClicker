@@ -9,8 +9,10 @@ namespace Cursors {
             ClickableBread.Instance.OnClicked();
         }
 
-        private void OnEnable() =>
+        private void OnEnable() {
+            
             ClickableBread.Instance.OnClicked += IncrementClickCountWithForce;
+        }
 
         private void OnDisable() =>
             ClickableBread.Instance.OnClicked -= IncrementClickCountWithForce;
